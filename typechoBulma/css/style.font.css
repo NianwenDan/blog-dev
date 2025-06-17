@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "JetBrains Mono NL";
+    src: url("../fonts/JetBrainsMonoNL-Regular.eot");
+    src: url("../fonts/JetBrainsMonoNL-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/JetBrainsMonoNL-Regular.woff2") format("woff2"),
+        url("../fonts/JetBrainsMonoNL-Regular.woff") format("woff"),
+        url("../fonts/JetBrainsMonoNL-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}

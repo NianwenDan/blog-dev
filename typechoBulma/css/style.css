@@ -1,0 +1,239 @@
+:root {
+    --theme-color: #ffffff;
+    --title-color: #24282d;
+    --title-hash-symbol-color: #FF4F00;
+    --font-color: #3a3c3b;
+    --link-color: #2d8cdc;
+    --note-color: #a3a3a3;
+    --sec-color: #f3f4f5;
+    --link-bd-color: rgba(142, 174, 107, .3);
+    --code-font-color: #3e3e3e;
+    --code-bg-color: #fafafa;
+    --quote-font-color: #777;
+    --comment-button-color: #ddd;
+    --comment-wrap-color: #ffffff;
+    /* bulma customize */
+    /* Due to Safari Lack of support, modifed bulma.min.css directly */
+    /* --bulma-link-h: 207deg;
+    --bulma-link-s: 71%;
+    --bulma-link-l: 52%; */
+}
+
+/* Support Dark Mode */
+@media(prefers-color-scheme: dark) {
+    :root {
+        --theme-color: #1a1c1b;
+        --title-color: #f3f4f5;
+        --title-hash-symbol-color: #FF4F00;
+        --font-color: #e1e1e1;
+        --link-color: #2d8cdc;
+        --note-color: #c3c3c3;
+        --sec-color: #242628;
+        --code-font-color: #dfdfdf;
+        --code-bg-color: #282c34;
+        --quote-font-color: #cfcfcf;
+        --comment-button-color: #242628;
+        --comment-wrap-color: #242628
+    }
+}
+
+/* bulma customize */
+/* Due to Safari Lack of support, modifed bulma.min.css directly */
+/* .section {
+--bulma-section-padding: 1rem 1.5rem;
+--bulma-section-padding-desktop: 1rem 3rem;
+} */
+
+/* customizr css start */
+.wrapper {
+    min-height: 80vh;
+}
+
+.post {
+    padding: 0 0 3em;
+}
+
+.post-password-required form {
+    margin-top: 3rem;
+}
+
+.post-title {
+    margin: 0 !important;
+}
+
+#logo,
+.post-title a {
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.post-meta {
+    margin: 0.5em 0;
+    padding: 0;
+    color: #999;
+    font-size: .92857em;
+}
+
+.post-meta a {
+    color: var(--title-color);
+}
+
+.post-meta li {
+    display: inline-block;
+    margin: 0 8px 0 0;
+}
+
+.post-meta li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+}
+
+.post-content,
+.comment-content {
+    margin: 1em 0 0;
+    line-height: 1.8;
+    word-wrap: break-word
+}
+
+.post-read-more-button {
+    margin: 1em 0 0;
+}
+
+.pagination {
+    margin: 2em 0.5em;
+}
+
+.page-navigator {
+    list-style: none;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+
+.page-navigator li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.page-navigator a {
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.page-navigator a:hover {
+    background: #EEE;
+    text-decoration: none;
+}
+
+.page-navigator .current a {
+    color: #444;
+    background: #EEE;
+}
+
+.widget:first-of-type {
+    margin-top: 1rem;
+}
+
+.widget {
+    margin-bottom: 2em;
+}
+
+.widget .widget-list {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.widget .widget-title {
+    font-weight: bold;
+}
+
+.widget .widget-list li {
+    margin: 0.3rem 0;
+    line-height: 1.6;
+}
+
+.widget .widget-list li a,
+.widget .widget-list span a {
+    color: var(--title-color);
+}
+
+.post .post-thumb img,
+.post-content img,
+.post-content video,
+.comment-content img,
+.post-content pre,
+.comment-content video,
+.whisper img,
+.whisper video {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+code {
+    font-family: "JetBrains Mono NL", Consolas, Inconsolata, Courier, monospace, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.respond-closed {
+    display: none;
+}
+
+.error-page {
+    padding-top: 30%;
+}
+
+.error-page p,
+.error-page h1,
+.error-page h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.error-page .error-page-recommand {
+    margin: 2rem;
+    padding-top: 10%;
+}
+
+.footer a {
+    color: #999;
+}
+
+#response {
+    margin: 0.5em 0;
+}
+
+#archives {
+    margin: 2rem 1rem;
+}
+
+#archives h3 {
+    font-style: italic;
+}
+
+#archives a {
+    color: var(--title-color);
+}
+
+#archives .archive-list-date {
+    margin-right: 0.7em;
+}
+
+#gongan_beian {
+    width: 1.5em;
+    margin-bottom: -5px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    footer p {
+        font-size: 0.7em;
+    }
+}
